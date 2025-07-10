@@ -18,6 +18,10 @@ const router = createBrowserRouter([
         path: "/upload",
         element: <div>uploaddd</div>
       },
+      {
+        path: "/profile",
+        element: <div>profile</div>
+      },
     ],
   },
 ]);
