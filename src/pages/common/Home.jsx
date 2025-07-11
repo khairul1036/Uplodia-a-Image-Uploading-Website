@@ -2,9 +2,11 @@ import React from 'react';
 
 const Home = () => {
     return (
-        <div>
-            Home page 
-            Hello from Obaed Branch 
+        <div className='font-bold '>
+            Home page  
+            <br />
+            <button className='btn-circle bg-primary px-2 py-1'>Hello</button>
+
         </div>
     );
 };
