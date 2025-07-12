@@ -16,14 +16,20 @@ const router = createBrowserRouter([
       },
       {
         path: "/upload",
-        element: <div>upload</div>
+        element: <div>uploaddd</div>
+      },
+      {
+        path: "/profile",
+        element: <div>profile route</div>
       },
     ],
   },
 ]);
 
 createRoot(document.getElementById("root")).render(
-  <StrictMode>
-    <RouterProvider router={router} />
-  </StrictMode>
+  <div className="max-w-[1920px] mx-auto">
+    <StrictMode>
+      <RouterProvider router={router} />
+    </StrictMode>
+  </div>
 );
