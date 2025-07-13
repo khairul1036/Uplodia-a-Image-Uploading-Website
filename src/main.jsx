@@ -1,35 +1,19 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
-import { createBrowserRouter, RouterProvider } from "react-router";
+
 import RootLayout from "./layout/RootLayout.jsx";
 import Home from "./pages/common/Home.jsx";
+import router from "./Route/Router.jsx";
+import { RouterProvider } from "react-router-dom";
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <RootLayout />,
-    children: [
-      {
-        index: true,
-        element: <Home />,
-      },
-      {
-        path: "/upload",
-        element: <div>uploaddd</div>
-      },
-      {
-        path: "/profile",
-        element: <div>profile route</div>
-      },
-    ],
-  },
-]);
+
 
 createRoot(document.getElementById("root")).render(
-  <div className="max-w-[1920px] mx-auto">
-    <StrictMode>
+
+  <StrictMode>
+    <div className="max-w-[1920px] mx-auto">
       <RouterProvider router={router} />
-    </StrictMode>
-  </div>
+    </div>
+  </StrictMode>
 );

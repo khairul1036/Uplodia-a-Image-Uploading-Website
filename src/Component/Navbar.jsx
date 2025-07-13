@@ -37,9 +37,9 @@ const Navbar = () => {
                 </li>
               </ul>
             </div>
-            <a className="font-bold text-2xl text-[#4F46E5]">Uplodia</a>
+            <a className="font-bold text-3xl text-[#4F46E5]">Uplodia</a>
           </div>
-          <div className="navbar-center hidden lg:flex">
+          <div className="navbar-center text-lg hidden lg:flex">
             <ul className="flex items-center justify-between gap-3 px-1">
               <NavLink
                 to="/"

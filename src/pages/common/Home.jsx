@@ -25,7 +25,7 @@ const Home = () => {
                     <div className="img-sec w-full  md:w-[46%] flex items-center justify-end   ">
                         {/* <img src={img} className=' object-fill rounded-2xl ' alt="image" /> */}
                         <video src={herovideo} muted loop
-                            playsInline autoPlay className='w-[600px] h-[400px]  md:w-[650px] md:h-[450px] rounded-2xl '></video>
+                            playsInline autoPlay className='h-[400px] border-2 border-amber-300  md:w-full md:h-[450px] rounded-2xl '></video>
                     </div>
                 </div>
             </div>

@@ -16,7 +16,7 @@ const DemoSEction = () => {
                 </div>
                 {/* demo section start */}
                 <div className="title w-full flex items-center justify-between">
-                    <div className="text text-[#1F2937] mb-4 md:w-[45%] text-xl">
+                    <div className="text text-[#1F2937]  mb-4 md:w-[45%] text-xl">
                         <div className="max-w-3xl mx-auto px-4 py-16 text-slate-800">
                             {/* Section Title */}
                             <h2 className="text-5xl font-bold mb-4">
